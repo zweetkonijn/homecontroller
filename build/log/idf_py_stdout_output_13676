@@ -1,0 +1,94 @@
+ESP-ROM:esp32h2-20221101
+Build:Nov  1 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x0 (USB_BOOT)
+Saved PC:0x40000fde
+wait usb download
+[0;32mI (3075) ZB_REMOTE: Knop 5 ingedrukt (GPIO11)[0m
+[0;33mW (3105) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;32mI (3205) ZB_REMOTE: Knop 5 losgelaten[0m
+[0;32mI (5065) ZB_REMOTE: Knop 8 ingedrukt (GPIO14)[0m
+[0;32mI (5215) ZB_REMOTE: Knop 8 losgelaten[0m
+[0;32mI (5655) ZB_REMOTE: Knop 13 ingedrukt (GPIO1)[0m
+[0;32mI (5805) ZB_REMOTE: Knop 13 losgelaten[0m
+[0;32mI (6245) ZB_REMOTE: Knop 1 ingedrukt (GPIO2)[0m
+[0;32mI (6405) ZB_REMOTE: Knop 1 losgelaten[0m
+[0;33mW (6573) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;32mI (7155) ZB_REMOTE: Knop 4 ingedrukt (GPIO5)[0m
+[0;32mI (7275) ZB_REMOTE: Knop 4 losgelaten[0m
+[0;32mI (7675) ZB_REMOTE: Knop 2 ingedrukt (GPIO3)[0m
+[0;32mI (7855) ZB_REMOTE: Knop 2 losgelaten[0m
+[0;32mI (8195) ZB_REMOTE: Knop 7 ingedrukt (GPIO13)[0m
+[0;32mI (8365) ZB_REMOTE: Knop 7 losgelaten[0m
+[0;32mI (10045) ZB_REMOTE: Knop 9 ingedrukt (GPIO9)[0m
+[0;33mW (10083) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;32mI (10205) ZB_REMOTE: Knop 9 losgelaten[0m
+[0;32mI (12305) ZB_REMOTE: Knop 2 ingedrukt (GPIO3)[0m
+[0;32mI (12445) ZB_REMOTE: Knop 2 losgelaten[0m
+[0;33mW (13558) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (17019) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (20519) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (23990) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (27480) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (30952) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (34431) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (37909) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (41383) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (44849) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (48326) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (51812) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;32mI (52415) ZB_REMOTE: Knop 8 ingedrukt (GPIO14)[0m
+[0;32mI (52825) ZB_REMOTE: Knop 8 losgelaten[0m
+[0;33mW (55301) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (58774) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;33mW (62287) ZB_REMOTE: Netwerk niet gevonden (0x03), opnieuw zoeken...[0m
+[0;32mI (67262) ZB_REMOTE: Verbonden! PAN ID: 0x1a62, Kanaal: 11, Adres: 0x209f[0m
+[0;32mI (67263) ZB_REMOTE: Radio AAN voor Z2M interview (60s)[0m
+[0;32mI (72548) ZB_REMOTE: Knop 5 ingedrukt (GPIO11)[0m
+[0;31mE (72548) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (72689) ZB_REMOTE: Knop 5 losgelaten[0m
+[0;31mE (72689) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (72689) ZB_REMOTE: Knop 6 ingedrukt (GPIO12)[0m
+[0;31mE (72693) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (72799) ZB_REMOTE: Knop 6 losgelaten[0m
+[0;31mE (72799) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (74499) ZB_REMOTE: Knop 6 ingedrukt (GPIO12)[0m
+[0;31mE (74499) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (74650) ZB_REMOTE: Knop 6 losgelaten[0m
+[0;31mE (74650) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (75841) ZB_REMOTE: Knop 1 ingedrukt (GPIO2)[0m
+[0;31mE (75841) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (75951) ZB_REMOTE: Knop 1 losgelaten[0m
+[0;31mE (75951) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (76691) ZB_REMOTE: Knop 13 ingedrukt (GPIO1)[0m
+[0;31mE (76691) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (76831) ZB_REMOTE: Knop 13 losgelaten[0m
+[0;31mE (76831) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (77591) ZB_REMOTE: Knop 11 ingedrukt (GPIO24)[0m
+[0;31mE (77591) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (77762) ZB_REMOTE: Knop 11 losgelaten[0m
+[0;31mE (77762) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (78063) ZB_REMOTE: Knop 10 ingedrukt (GPIO23)[0m
+[0;31mE (78063) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (78224) ZB_REMOTE: Knop 10 losgelaten[0m
+[0;31mE (78224) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (78884) ZB_REMOTE: Knop 8 ingedrukt (GPIO14)[0m
+[0;31mE (78884) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (79075) ZB_REMOTE: Knop 8 losgelaten[0m
+[0;31mE (79075) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (79416) ZB_REMOTE: Knop 6 ingedrukt (GPIO12)[0m
+[0;31mE (79416) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (79596) ZB_REMOTE: Knop 6 losgelaten[0m
+[0;31mE (79596) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (84616) ZB_REMOTE: Knop 4 ingedrukt (GPIO5)[0m
+[0;31mE (84616) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (84777) ZB_REMOTE: Knop 3 ingedrukt (GPIO4)[0m
+[0;31mE (84777) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (84987) ZB_REMOTE: Knop 3 losgelaten[0m
+[0;31mE (84987) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (84987) ZB_REMOTE: Knop 4 losgelaten[0m
+[0;31mE (84991) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (85397) ZB_REMOTE: Knop 4 ingedrukt (GPIO5)[0m
+[0;31mE (85397) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (86177) ZB_REMOTE: Knop 4 losgelaten[0m
+[0;31mE (86177) ZB_REMOTE: ezb_zcl_set_attr_value mislukt: 0x01[0m
+[0;32mI (127266) ZB_REMOTE: Interview venster gesloten — radio naar sleep modus[0m

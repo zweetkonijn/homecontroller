@@ -1,0 +1,53 @@
+-- IDF_TARGET is not set, guessed 'esp32h2' from sdkconfig 'C:/esp/esp-zigbee-sdk/examples/sleepy_devices/light_sleep_end_device/sdkconfig'
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.53.0.windows.1") 
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin/riscv32-esp-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32h2
+NOTICE: Using component placed at C:\esp\esp-zigbee-sdk\examples\utils\alarm_timer for dependency "alarm_timer", specified in C:\esp\esp-zigbee-sdk\examples\sleepy_devices\light_sleep_end_device\main\idf_component.yml
+NOTICE: Using component placed at C:\esp\esp-zigbee-sdk\examples\utils\switch_driver for dependency "switch_driver", specified in C:\esp\esp-zigbee-sdk\examples\sleepy_devices\light_sleep_end_device\main\idf_component.yml
+NOTICE: Processing 5 dependencies:
+NOTICE: [1/5] alarm_timer (*) (C:\esp\esp-zigbee-sdk\examples\utils\alarm_timer)
+NOTICE: [2/5] espressif/esp-zigbee-lib (2.0.0)
+NOTICE: [3/5] espressif/led_strip (2.0.0)
+NOTICE: [4/5] switch_driver (*) (C:\esp\esp-zigbee-sdk\examples\utils\switch_driver)
+NOTICE: [5/5] idf (5.3.1)
+-- Project sdkconfig file C:/esp/esp-zigbee-sdk/examples/sleepy_devices/light_sleep_end_device/sdkconfig
+Loading defaults file C:/esp/esp-zigbee-sdk/examples/sleepy_devices/light_sleep_end_device/sdkconfig.defaults...
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/riscv/ld/rom.api.ld
+-- Found Python3: C:/Espressif/python_env/idf5.3_py3.13_env/Scripts/python.exe (found version "3.13.12") found components: Interpreter 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "light_sleep_end_device" version: 989c64e-dirty
+-- Adding linker script C:/esp/esp-zigbee-sdk/examples/sleepy_devices/light_sleep_end_device/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/esp/esp-zigbee-sdk/examples/sleepy_devices/light_sleep_end_device/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/esp_rom/esp32h2/ld/esp32h2.rom.ld
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/esp_rom/esp32h2/ld/esp32h2.rom.api.ld
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/esp_rom/esp32h2/ld/esp32h2.rom.libgcc.ld
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/esp_rom/esp32h2/ld/esp32h2.rom.wdt.ld
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/esp_rom/esp32h2/ld/esp32h2.rom.systimer.ld
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/esp_rom/esp32h2/ld/esp32h2.rom.version.ld
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/esp_rom/esp32h2/ld/esp32h2.rom.newlib.ld
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/esp_rom/esp32h2/ld/esp32h2.rom.heap.ld
+-- Adding linker script C:/esp/esp-idf-v5.3.1/components/soc/esp32h2/ld/esp32h2.peripherals.ld
+-- Component idf::espressif__esp-zigbee-lib will be linked with -Wl,--whole-archive
+-- Components: alarm_timer app_update bootloader bootloader_support console cxx driver efuse esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_event esp_hw_support esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_ringbuf esp_rom esp_system esp_timer esp_vfs_console esp_wifi espressif__esp-zigbee-lib espressif__led_strip esptool_py freertos hal heap ieee802154 log lwip main mbedtls newlib nvs_flash openthread partition_table pthread riscv sdmmc soc spi_flash switch_driver vfs wpa_supplicant
+-- Component paths: C:/esp/esp-zigbee-sdk/examples/utils/alarm_timer C:/esp/esp-idf-v5.3.1/components/app_update C:/esp/esp-idf-v5.3.1/components/bootloader C:/esp/esp-idf-v5.3.1/components/bootloader_support C:/esp/esp-idf-v5.3.1/components/console C:/esp/esp-idf-v5.3.1/components/cxx C:/esp/esp-idf-v5.3.1/components/driver C:/esp/esp-idf-v5.3.1/components/efuse C:/esp/esp-idf-v5.3.1/components/esp_app_format C:/esp/esp-idf-v5.3.1/components/esp_bootloader_format C:/esp/esp-idf-v5.3.1/components/esp_coex C:/esp/esp-idf-v5.3.1/components/esp_common C:/esp/esp-idf-v5.3.1/components/esp_driver_ana_cmpr C:/esp/esp-idf-v5.3.1/components/esp_driver_dac C:/esp/esp-idf-v5.3.1/components/esp_driver_gpio C:/esp/esp-idf-v5.3.1/components/esp_driver_gptimer C:/esp/esp-idf-v5.3.1/components/esp_driver_i2c C:/esp/esp-idf-v5.3.1/components/esp_driver_i2s C:/esp/esp-idf-v5.3.1/components/esp_driver_ledc C:/esp/esp-idf-v5.3.1/components/esp_driver_mcpwm C:/esp/esp-idf-v5.3.1/components/esp_driver_parlio C:/esp/esp-idf-v5.3.1/components/esp_driver_pcnt C:/esp/esp-idf-v5.3.1/components/esp_driver_rmt C:/esp/esp-idf-v5.3.1/components/esp_driver_sdio C:/esp/esp-idf-v5.3.1/components/esp_driver_sdm C:/esp/esp-idf-v5.3.1/components/esp_driver_sdmmc C:/esp/esp-idf-v5.3.1/components/esp_driver_sdspi C:/esp/esp-idf-v5.3.1/components/esp_driver_spi C:/esp/esp-idf-v5.3.1/components/esp_driver_tsens C:/esp/esp-idf-v5.3.1/components/esp_driver_uart C:/esp/esp-idf-v5.3.1/components/esp_driver_usb_serial_jtag C:/esp/esp-idf-v5.3.1/components/esp_event C:/esp/esp-idf-v5.3.1/components/esp_hw_support C:/esp/esp-idf-v5.3.1/components/esp_mm C:/esp/esp-idf-v5.3.1/components/esp_netif C:/esp/esp-idf-v5.3.1/components/esp_netif_stack C:/esp/esp-idf-v5.3.1/components/esp_partition C:/esp/esp-idf-v5.3.1/components/esp_phy C:/esp/esp-idf-v5.3.1/components/esp_pm C:/esp/esp-idf-v5.3.1/components/esp_ringbuf C:/esp/esp-idf-v5.3.1/components/esp_rom C:/esp/esp-idf-v5.3.1/components/esp_system C:/esp/esp-idf-v5.3.1/components/esp_timer C:/esp/esp-idf-v5.3.1/components/esp_vfs_console C:/esp/esp-idf-v5.3.1/components/esp_wifi C:/esp/esp-zigbee-sdk/examples/sleepy_devices/light_sleep_end_device/managed_components/espressif__esp-zigbee-lib C:/esp/esp-zigbee-sdk/examples/sleepy_devices/light_sleep_end_device/managed_components/espressif__led_strip C:/esp/esp-idf-v5.3.1/components/esptool_py C:/esp/esp-idf-v5.3.1/components/freertos C:/esp/esp-idf-v5.3.1/components/hal C:/esp/esp-idf-v5.3.1/components/heap C:/esp/esp-idf-v5.3.1/components/ieee802154 C:/esp/esp-idf-v5.3.1/components/log C:/esp/esp-idf-v5.3.1/components/lwip C:/esp/esp-zigbee-sdk/examples/sleepy_devices/light_sleep_end_device/main C:/esp/esp-idf-v5.3.1/components/mbedtls C:/esp/esp-idf-v5.3.1/components/newlib C:/esp/esp-idf-v5.3.1/components/nvs_flash C:/esp/esp-idf-v5.3.1/components/openthread C:/esp/esp-idf-v5.3.1/components/partition_table C:/esp/esp-idf-v5.3.1/components/pthread C:/esp/esp-idf-v5.3.1/components/riscv C:/esp/esp-idf-v5.3.1/components/sdmmc C:/esp/esp-idf-v5.3.1/components/soc C:/esp/esp-idf-v5.3.1/components/spi_flash C:/esp/esp-zigbee-sdk/examples/utils/switch_driver C:/esp/esp-idf-v5.3.1/components/vfs C:/esp/esp-idf-v5.3.1/components/wpa_supplicant
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/esp/esp-zigbee-sdk/examples/sleepy_devices/light_sleep_end_device/build

@@ -1,0 +1,107 @@
+ESP-ROM:esp32h2-20221101
+Build:Nov  1 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x0 (USB_BOOT)
+Saved PC:0x40000fde
+wait usb download
+init: ESP-IDF:          v5.3.1[0m
+[0;32mI (339) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (343) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (348) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (353) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (360) heap_init: At 40812D60 len 0003A620 (233 KiB): RAM[0m
+[0;32mI (366) heap_init: At 4084D380 len 00002B60 (10 KiB): RAM[0m
+[0;32mI (374) spi_flash: detected chip: generic[0m
+[0;32mI (377) spi_flash: flash io: dio[0m
+[0;33mW (381) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (395) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (402) sleep_clock: System Power, Clock and Reset sleep retention initialization[0m
+[0;32mI (422) main_task: Started on CPU0[0m
+[0;32mI (423) main_task: Calling app_main()[0m
+[0;32mI (423) ZB_REMOTE: === Zigbee Remote opstarten ===[0m
+[0;32mI (444) pm: Frequency switching config: CPU_MAX: 96, APB_MAX: 96, APB_MIN: 96, Light sleep: ENABLED[0m
+[0;32mI (445) ZB_REMOTE: Power management: light sleep actief[0m
+[0;32mI (449) gpio: GPIO[2]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (458) gpio: GPIO[3]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (467) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (477) gpio: GPIO[5]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (486) gpio: GPIO[11]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (495) gpio: GPIO[12]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (504) gpio: GPIO[13]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (514) gpio: GPIO[14]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (523) gpio: GPIO[9]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (532) gpio: GPIO[23]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (541) gpio: GPIO[24]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (551) gpio: GPIO[10]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (560) gpio: GPIO[1]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (569) ZB_REMOTE: 13 knoppen geconfigureerd (polling modus)[0m
+[0;32mI (576) ZB_REMOTE: Zigbee stack starten...[0m
+[0;32mI (595) phy: phy_version: 310,2, 8fa9cb4, Jun  5 2024, 14:19:10[0m
+[0;32mI (596) phy: libbtbb version: a024da6, Jun  5 2024, 14:19:22[0m
+[0;32mI (598) sleep_clock: Modem Power, Clock and Reset sleep retention initialization[0m
+[0;32mI (620) ZB_REMOTE: presentValue attribuut toegevoegd met reporting access[0m
+[0;32mI (624) main_task: Returned from app_main()[0m
+[0;32mI (642) ZB_REMOTE: Endpoint 1 geregistreerd met Analog Input cluster[0m
+[0;32mI (650) ZB_REMOTE: Zigbee stack geinitialiseerd[0m
+[0;33mW (797) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (1946) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (3095) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (4248) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (5401) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (6544) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (7693) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (8843) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (9987) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;32mI (10619) ZB_REMOTE: Knop 5 ingedrukt (GPIO11)[0m
+[0;32mI (10769) ZB_REMOTE: Knop 5 losgelaten[0m
+[0;33mW (11135) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (12280) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (13426) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (14579) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (15723) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (16870) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (18017) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;33mW (19166) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;32mI (19341) ZB_REMOTE: Knop 13 ingedrukt (GPIO1)[0m
+[0;32mI (19521) ZB_REMOTE: Knop 13 losgelaten[0m
+[0;33mW (20319) ZB_REMOTE: Opstart mislukt (0x03), opnieuw proberen...[0m
+[0;32mI (20971) ZB_REMOTE: Knop 11 ingedrukt (GPIO24)[0m
+[0;32mI (21151) ZB_REMOTE: Knop 11 losgelaten[0m
+[0;32mI (21496) ZB_REMOTE: Apparaat opgestart in normale modus[0m
+[0;32mI (21497) ZB_REMOTE: Herverbinden met bestaand netwerk[0m
+[0;32mI (21498) ZB_REMOTE: Radio AAN na reboot (60s)[0m
+[0;32mI (23074) ZB_REMOTE: Knop 13 ingedrukt (GPIO1)[0m
+[0;33mW (23075) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (23076) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (23233) ZB_REMOTE: Knop 13 losgelaten[0m
+[0;33mW (23233) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (23235) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (27902) ZB_REMOTE: Knop 13 ingedrukt (GPIO1)[0m
+[0;33mW (27903) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (27904) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (28011) ZB_REMOTE: Knop 13 losgelaten[0m
+[0;33mW (28011) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (28013) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (34520) ZB_REMOTE: Knop 12 ingedrukt (GPIO10)[0m
+[0;33mW (34521) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (34522) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (34709) ZB_REMOTE: Knop 12 losgelaten[0m
+[0;33mW (34709) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (34710) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (37977) ZB_REMOTE: Knop 12 ingedrukt (GPIO10)[0m
+[0;33mW (37978) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (37979) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (38176) ZB_REMOTE: Knop 12 losgelaten[0m
+[0;33mW (38176) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (38177) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (38904) ZB_REMOTE: Knop 6 ingedrukt (GPIO12)[0m
+[0;33mW (38904) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (38906) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (39073) ZB_REMOTE: Knop 6 losgelaten[0m
+[0;33mW (39073) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (39074) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (41141) ZB_REMOTE: Knop 13 ingedrukt (GPIO1)[0m
+[0;33mW (41142) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (41143) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
+[0;32mI (41360) ZB_REMOTE: Knop 13 losgelaten[0m
+[0;33mW (41360) ZB_REMOTE: report_attr mislukt (0x0005), probeer via coordinator adres[0m
+[0;31mE (41361) ZB_REMOTE: report_attr via coordinator ook mislukt: 0x0005[0m
