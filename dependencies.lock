@@ -1,0 +1,46 @@
+dependencies:
+  alarm_timer:
+    dependencies: []
+    source:
+      path: C:\esp\esp-zigbee-sdk\examples\utils\alarm_timer
+      type: local
+    version: '*'
+  espressif/esp-zigbee-lib:
+    component_hash: 823ee1604d896bdcfd3d5dbe2b1eb84fdf089cffcbbe50e46d01d647861710ba
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.0.0
+  espressif/led_strip:
+    component_hash: 7e92a0c8a2e35b40904f88e88ce3c0dffff504a2763f70fba7ef4787cf2eec83
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 2.0.0
+  idf:
+    source:
+      type: idf
+    version: 5.3.1
+  switch_driver:
+    dependencies: []
+    source:
+      path: C:\esp\esp-zigbee-sdk\examples\utils\switch_driver
+      type: local
+    version: '*'
+direct_dependencies:
+- alarm_timer
+- espressif/esp-zigbee-lib
+- espressif/led_strip
+- idf
+- switch_driver
+manifest_hash: 87619069c79056b93835339852085ba625d53d8e61e3b4f6e86b33458f8a7ac0
+target: esp32h2
+version: 2.0.0
